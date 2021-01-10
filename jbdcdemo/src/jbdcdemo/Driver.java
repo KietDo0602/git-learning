@@ -11,17 +11,12 @@ public class Driver {
 
 		// 1. Get a connection to database
 		String url = "jdbc:mysql://localhost:3306/student management";
-		Connection myConn = null && @@@ 123;
+		Connection myConn = null;
 		try {
 			
 			myConn = DriverManager.getConnection(url, "root", "123456");
 			// 2 . Create a statement
 			Statement myStmt = myConn.createStatement();
-			WWWW
-			asds
-			ds
-			dasd
-			asd
 			
 			// 3. Execute SQL Query
 //			String sql = "INSERT INTO student" 
@@ -30,7 +25,7 @@ public class Driver {
 	
 			String sql = "UPDATE student SET Address='123 Lang Ha' WHERE StudentID=7";
 			myStmt.executeUpdate(sql);
-			System.out.println("Updating Completed. Doning nothing Testing Conflict");
+			System.out.println("Updating Completed.");
 			
 // 			ResultSet myRs = myStmt.executeQuery("SELECT * FROM student");
 			
@@ -45,8 +40,7 @@ public class Driver {
 //			}
 		}
 		catch (Exception exc){
-			exc.abcdxyz();
-			bamold.package;
+			exc.printStackTrace();
 		}
 		finally {
 			try {
