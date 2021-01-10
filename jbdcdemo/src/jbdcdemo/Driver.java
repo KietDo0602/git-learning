@@ -14,7 +14,7 @@ public class Driver {
 		Connection myConn = null;
 		try {
 			
-			myConn = DriverManager.getConnection(url, "root", "123456");
+			myConn = DriverManager.getConnection(url, "root", "rghwrogjwrgjkwrhogjlwrhnojkgrnojkgweiorgjowirgjoweoigjriogwjriogwjio");
 			// 2 . Create a statement
 			Statement myStmt = myConn.createStatement();
 			
