@@ -10,7 +10,7 @@ public class Exercise_12 {
 		System.out.println("Please enter another string at the end of the first string : ");
 		String str_2 = in.nextLine();
 		System.out.println("Does the first string end with the second string?");
-		boolean answer = str_1.endsWith(str_2);
+		boolean answer = str_1.startsWith(str_2);
 		System.out.println("Answer: " + answer);
 	}
 }

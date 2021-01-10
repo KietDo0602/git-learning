@@ -9,7 +9,7 @@ public class Exercise_2 {
 		String str = in.nextLine().trim();
 		System.out.println("Enter a index number between 0 and " + (str.length()-1));
 		int index_1 = in.nextInt();
-		System.out.println("Enter another index number between 0 and " + str.length());
+		System.out.println("Enter another index number between 0 and " + (str.length()-1));
 		int index_2 = in.nextInt();
 		int char_code_1 = str.codePointAt(index_1);
 		int char_code_2 = str.codePointAt(index_2);
