@@ -17,6 +17,11 @@ public class Driver {
 			myConn = DriverManager.getConnection(url, "root", "123456");
 			// 2 . Create a statement
 			Statement myStmt = myConn.createStatement();
+			WWWW
+			asds
+			ds
+			dasd
+			asd
 			
 			// 3. Execute SQL Query
 //			String sql = "INSERT INTO student" 
