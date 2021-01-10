@@ -11,7 +11,7 @@ public class Driver {
 
 		// 1. Get a connection to database
 		String url = "jdbc:mysql://localhost:3306/student management";
-		Connection myConn = null && @@@ 123;
+		Connection myConn = null;
 		try {
 			
 			myConn = DriverManager.getConnection(url, "root", "123456");
