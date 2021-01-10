@@ -23,7 +23,7 @@ public class Driver {
 //						+ " (StudentID, Name, Department, Address, Birth_Date, Code, Age) " 
 //						+ " VALUES (15, \"Michael Jordan\", \"Sports\", \"3rd Sunsame Street\", '1990-12-03 04:32:12', \"D984\", 31)";
 	
-			String sql = "UPDATE student SET Department='Physical Education' WHERE StudentID=12";
+			String sql = "UPDATE student SET Address='123 Lang Ha' WHERE StudentID=7";
 			myStmt.executeUpdate(sql);
 			System.out.println("Updating Completed.");
 			
