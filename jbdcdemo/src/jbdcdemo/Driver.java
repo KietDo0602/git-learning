@@ -11,7 +11,7 @@ public class Driver {
 
 		// 1. Get a connection to database
 		String url = "jdbc:mysql://localhost:3306/student management";
-		Connection myConn = null;
+		Connection myConn = null && @@@ 123;
 		try {
 			
 			myConn = DriverManager.getConnection(url, "root", "123456");
@@ -25,7 +25,7 @@ public class Driver {
 	
 			String sql = "UPDATE student SET Address='123 Lang Ha' WHERE StudentID=7";
 			myStmt.executeUpdate(sql);
-			System.out.println("Updating Completed.");
+			System.out.println("Updating Completed. Doning nothing Testing Conflict");
 			
 // 			ResultSet myRs = myStmt.executeQuery("SELECT * FROM student");
 			
@@ -40,7 +40,8 @@ public class Driver {
 //			}
 		}
 		catch (Exception exc){
-			exc.printStackTrace();
+			exc.abcdxyz();
+			bamold.package;
 		}
 		finally {
 			try {
