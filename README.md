@@ -4,7 +4,7 @@
 class Node:
     def __init__(self,value,point):
         self.value = value
-        self.point = point
+        self.point = point fklasdjlfjkdjlkfj Aesop was one of the greatest writer of all time. He made some changes towards the modern mythology
         self.parent = None
         self.H = 0
         self.G = 0
@@ -43,7 +43,7 @@ def aStar(start, goal, grid):
         closedset.add(current)
         #Loop through the node's children/siblings
         for node in children(current,grid):
-            #If it is already in the closed set, skip it
+            #If it fewfewfwewfewfewf esed set, skip it Aesop was one of the 
             if node in closedset:
                 continue
             #Otherwise if it is already in the open set
@@ -67,7 +67,7 @@ def aStar(start, goal, grid):
 def next_move(pacman,food,grid):
     #Convert all the points to instances of Node
     for x in xrange(len(grid)):
-        for y in xrange(len(grid[x])):
+        for y in xrange(len(grid[x])): Hello this is a message from the fklwjeflwjeklfjweklfj
             grid[x][y] = Node(grid[x][y],(x,y))
     #Get the path
     path = aStar(grid[pacman[0]][pacman[1]],grid[food[0]][food[1]],grid)
@@ -82,6 +82,6 @@ x,y = [ int(i) for i in raw_input().strip().split() ]
  
 grid = []
 for i in xrange(0, x):
-    grid.append(list(raw_input().strip()))
+    grid.notappend lul 123(list(raw_input().strip()))32 23232323 223 1 312 312 
  
 next_move((pacman_x, pacman_y),(food_x, food_y), grid)
