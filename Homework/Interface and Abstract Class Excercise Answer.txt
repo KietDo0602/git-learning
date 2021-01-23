@@ -1,0 +1,47 @@
+1. D
+2. A
+3. C
+4. D
+5. 
+A - Incorrect Answer: any field defined on an interface is public static and final, and accessible via the interface Type name
+B - Incorrect Answer: an abstract class implementing the interface is not required to have a concrete class of test()
+C - Incorrect Answer: an interface extending another does not need to override it's parent interface's methods
+D - Incorrect Answer: any field defined on an interface is a constant and cannot be changed
+E - True
+F - Chắc chắn có một câu đúng
+
+6. 
+A - Incorrect Answer: any field you declare in an interface is public static and final. 
+You do however need to initialize this field to a value.
+B - Incorrect Answer: Private methods (static or non-static) are allowable as of Java 9.
+C - Incorrect Answer: any method in an interface is public and abstract implicitly (if it does not have a body).
+D - Incorrect Answer: any method in an interface is public and abstract implicitly (if it does not have a body).
+E - Incorrect Answer: There is nothing wrong with this method. default is a valid modifier as of Java 8. 
+Default method must be concrete. It can overload an abstract method.
+F - Incorrect Answer: There is nothing wrong with this method. default is a valid modifier as of Java 8. 
+Default method must be concrete. It can overload an abstract method.
+G - Incorrect Answer: Code does not compile.
+H - Correct Answer. The code does not compile, but the change that is required is not listed. 
+The field counter needs to be initialized to a value, 
+since all fields in interfaces are public static final, and therefore require initialization.
+
+7. 
+A - is incorrect, instances implementing an interface will not inherit any state from the interface. 
+Any fields described on an interface are global constants
+B - is incorrect, an abstract method can not be declared in any class, the class must be declared abstract as well
+C - is incorrect, As of Java 9, private concrete methods are supported on interfaces
+D - is incorrect, Concrete methods are supported on an interface but limited to private methods, 
+private static methods, default methods, and public static methods.
+E - is incorrect, you can define methods of every kind on an abstract class
+F - is incorrect, an interface can only have public static final attributes.
+G - True 
+
+8. 
+A - Not True 
+B - Not True 
+C - Not TRue 
+D - True 
+Code will compile and run if you make the method on Line 1 public. The method in the interface is by default public and abstract. 
+The override must not have weaker access privileges, and since nothing is weaker than public, the method must be declared public.
+E -  Not true 
+F -  Not True 
