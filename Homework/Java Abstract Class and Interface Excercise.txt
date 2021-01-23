@@ -6,6 +6,9 @@ C A class can be made abstract without any abstract method
 D A class can inherit from multiple abstract classes.
 Java Abstract Class and Interface
 
+
+ANSWER: B, C, D
+
 2. Which of the following is true about interfaces in java.
 (1) An interface can contain following type of members.
 ....public, static, final fields (i.e., constants) 
@@ -21,6 +24,8 @@ A 1, 3 and 4
 B 1, 2 and 4
 C 2, 3 and 4
 D 1, 2, 3 and 4
+
+ANSWER: D
 
 3. Predict the output of the following program.
 abstract class demo
@@ -62,6 +67,8 @@ A a = 10
 B a = 20
 C Compilation error
 
+ANSWER: B
+
 4. Which of the following statement(s) with regard to an abstract class in JAVA is/are TRUE ? 
 I. An abstract class is one that is not used to create objects. 
 II. An abstract class is designed only to act as a base class to be inherited by other classes.
@@ -70,6 +77,8 @@ A Only I
 B Only II
 C Neither I nor II
 D Both I and II
+
+ANSWER: D
 
 5. Given: 
 -------------- Test.java source code ------------------
@@ -92,7 +101,9 @@ E.  Any class that implements Test can define its own field name
 
 F.  None of the above
 
-6. Given: 
+ANSWER: 
+
+6. Given: C, D, E
 
 -------------- Test.java source code ------------------
  
@@ -128,6 +139,8 @@ G. Code compiles fine the way it is
 
 H. None of the above.
 
+ANSWER: H
+
 
 7. Which of the following statements are true? Pick one answer.
 
@@ -144,6 +157,8 @@ E. You cannot define concrete methods on an abstract class
 F. An interface can have private static variables.
 
 G. A class can implement multiple interfaces.
+
+ANSWER: B, D, F, G
 
 8. Given:
 
@@ -181,7 +196,7 @@ E. Compiler indicates clashing method name on Line 2
 F. None of the above.
 
 
-
+ANSWER: A
 
 
 
